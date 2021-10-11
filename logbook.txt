@@ -1,7 +1,13 @@
 Logbook
 
-Create Repository
+create repository
 * https://github.com/dk5ee/LiRX 
 * added License: Publich domain
 * added .gitignore for KiCAD
 * starting this Logbook
+
+Import schematic from old repostory
+* fixed double filled zone
+* generated gerber files
+* generated images
+
