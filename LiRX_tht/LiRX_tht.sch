@@ -594,12 +594,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 6141E8A6
-P 1850 4150
-F 0 "J8" H 1767 3919 50  0000 C CNN
-F 1 "TP1" H 1767 4012 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 1850 4150 50  0001 C CNN
-F 3 "~" H 1850 4150 50  0001 C CNN
-	1    1850 4150
+P 2850 6300
+F 0 "J8" H 2767 6069 50  0000 C CNN
+F 1 "TP1" H 2767 6162 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2850 6300 50  0001 C CNN
+F 3 "~" H 2850 6300 50  0001 C CNN
+	1    2850 6300
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -610,67 +610,67 @@ Connection ~ 6650 2100
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 61422A3B
-P 1850 4500
-F 0 "J5" H 1767 4269 50  0000 C CNN
-F 1 "TP2" H 1767 4362 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 1850 4500 50  0001 C CNN
-F 3 "~" H 1850 4500 50  0001 C CNN
-	1    1850 4500
+P 2850 6650
+F 0 "J5" H 2767 6419 50  0000 C CNN
+F 1 "TP2" H 2767 6512 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2850 6650 50  0001 C CNN
+F 3 "~" H 2850 6650 50  0001 C CNN
+	1    2850 6650
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 61425068
-P 1850 4850
-F 0 "J2" H 1767 4619 50  0000 C CNN
-F 1 "TP3" H 1767 4712 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 1850 4850 50  0001 C CNN
-F 3 "~" H 1850 4850 50  0001 C CNN
-	1    1850 4850
+P 2850 7000
+F 0 "J2" H 2767 6769 50  0000 C CNN
+F 1 "TP3" H 2767 6862 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2850 7000 50  0001 C CNN
+F 3 "~" H 2850 7000 50  0001 C CNN
+	1    2850 7000
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 61426866
-P 1850 5200
-F 0 "J3" H 1767 4969 50  0000 C CNN
-F 1 "TP4" H 1767 5062 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 1850 5200 50  0001 C CNN
-F 3 "~" H 1850 5200 50  0001 C CNN
-	1    1850 5200
+P 2850 7350
+F 0 "J3" H 2767 7119 50  0000 C CNN
+F 1 "TP4" H 2767 7212 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2850 7350 50  0001 C CNN
+F 3 "~" H 2850 7350 50  0001 C CNN
+	1    2850 7350
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 614280C8
-P 2550 4150
-F 0 "J6" H 2467 3919 50  0000 C CNN
-F 1 "TP5" H 2467 4012 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2550 4150 50  0001 C CNN
-F 3 "~" H 2550 4150 50  0001 C CNN
-	1    2550 4150
+P 3550 6300
+F 0 "J6" H 3467 6069 50  0000 C CNN
+F 1 "TP5" H 3467 6162 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 3550 6300 50  0001 C CNN
+F 3 "~" H 3550 6300 50  0001 C CNN
+	1    3550 6300
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J9
 U 1 1 614299E8
-P 2550 4500
-F 0 "J9" H 2467 4269 50  0000 C CNN
-F 1 "TP6" H 2467 4362 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2550 4500 50  0001 C CNN
-F 3 "~" H 2550 4500 50  0001 C CNN
-	1    2550 4500
+P 3550 6650
+F 0 "J9" H 3467 6419 50  0000 C CNN
+F 1 "TP6" H 3467 6512 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 3550 6650 50  0001 C CNN
+F 3 "~" H 3550 6650 50  0001 C CNN
+	1    3550 6650
 	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J7
 U 1 1 6142A82A
-P 2550 4850
-F 0 "J7" H 2467 4619 50  0000 C CNN
-F 1 "TP7" H 2467 4712 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2550 4850 50  0001 C CNN
-F 3 "~" H 2550 4850 50  0001 C CNN
-	1    2550 4850
+P 3550 7000
+F 0 "J7" H 3467 6769 50  0000 C CNN
+F 1 "TP7" H 3467 6862 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 3550 7000 50  0001 C CNN
+F 3 "~" H 3550 7000 50  0001 C CNN
+	1    3550 7000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -680,12 +680,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 J1
 U 1 1 6142EEE4
-P 2550 5200
-F 0 "J1" H 2467 4969 50  0000 C CNN
-F 1 "TP8" H 2467 5062 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2550 5200 50  0001 C CNN
-F 3 "~" H 2550 5200 50  0001 C CNN
-	1    2550 5200
+P 3550 7350
+F 0 "J1" H 3467 7119 50  0000 C CNN
+F 1 "TP8" H 3467 7212 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 3550 7350 50  0001 C CNN
+F 3 "~" H 3550 7350 50  0001 C CNN
+	1    3550 7350
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -747,21 +747,21 @@ F 3 "~" H 1900 7500 50  0001 C CNN
 	1    1900 7500
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 4150 0    50   Input ~ 0
+Text GLabel 2650 6300 0    50   Input ~ 0
 GND
-Text GLabel 1650 4500 0    50   Input ~ 0
+Text GLabel 2650 6650 0    50   Input ~ 0
 TP2
-Text GLabel 1650 4850 0    50   Input ~ 0
+Text GLabel 2650 7000 0    50   Input ~ 0
 TP3
-Text GLabel 1650 5200 0    50   Input ~ 0
+Text GLabel 2650 7350 0    50   Input ~ 0
 TP4
-Text GLabel 2350 4150 0    50   Input ~ 0
+Text GLabel 3350 6300 0    50   Input ~ 0
 TP5
-Text GLabel 2350 4500 0    50   Input ~ 0
+Text GLabel 3350 6650 0    50   Input ~ 0
 TP6
-Text GLabel 2350 4850 0    50   Input ~ 0
+Text GLabel 3350 7000 0    50   Input ~ 0
 TP7
-Text GLabel 2350 5200 0    50   Input ~ 0
+Text GLabel 3350 7350 0    50   Input ~ 0
 TP8
 Text GLabel 1300 2700 0    50   Input ~ 0
 GND
@@ -794,15 +794,15 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 J11
 U 1 1 6154D216
-P 2550 5550
-F 0 "J11" H 2466 5319 50  0000 C CNN
-F 1 "TP9" H 2466 5412 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 2550 5550 50  0001 C CNN
-F 3 "~" H 2550 5550 50  0001 C CNN
-	1    2550 5550
+P 3550 7700
+F 0 "J11" H 3466 7469 50  0000 C CNN
+F 1 "TP9" H 3466 7562 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 3550 7700 50  0001 C CNN
+F 3 "~" H 3550 7700 50  0001 C CNN
+	1    3550 7700
 	1    0    0    1   
 $EndComp
-Text GLabel 2350 5550 0    50   Input ~ 0
+Text GLabel 3350 7700 0    50   Input ~ 0
 TP9
 Text GLabel 9100 2150 0    50   Input ~ 0
 TP9
@@ -813,49 +813,49 @@ Wire Wire Line
 Connection ~ 9150 2400
 Wire Wire Line
 	9150 2400 9800 2400
-Text GLabel 3400 4100 0    50   Input ~ 0
+Text GLabel 10250 1250 0    50   Input ~ 0
 TP3
-Text GLabel 3400 4500 0    50   Input ~ 0
+Text GLabel 10250 1650 0    50   Input ~ 0
 GND
-Text GLabel 3400 3700 0    50   Input ~ 0
+Text GLabel 10250 850  0    50   Input ~ 0
 TP2
 $Comp
 L Device:C C1
 U 1 1 6142F608
-P 3600 3900
-F 0 "C1" V 3345 3900 50  0000 C CNN
-F 1 "100n" V 3438 3900 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3638 3750 50  0001 C CNN
-F 3 "~" H 3600 3900 50  0001 C CNN
-	1    3600 3900
+P 10450 1050
+F 0 "C1" V 10195 1050 50  0000 C CNN
+F 1 "100n" V 10288 1050 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 10488 900 50  0001 C CNN
+F 3 "~" H 10450 1050 50  0001 C CNN
+	1    10450 1050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 6143302E
-P 3600 4300
-F 0 "C2" V 3345 4300 50  0000 C CNN
-F 1 "100n" V 3438 4300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3638 4150 50  0001 C CNN
-F 3 "~" H 3600 4300 50  0001 C CNN
-	1    3600 4300
+P 10450 1450
+F 0 "C2" V 10195 1450 50  0000 C CNN
+F 1 "100n" V 10288 1450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 10488 1300 50  0001 C CNN
+F 3 "~" H 10450 1450 50  0001 C CNN
+	1    10450 1450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3400 4100 3600 4100
+	10250 1250 10450 1250
 Wire Wire Line
-	3600 4100 3600 4050
+	10450 1250 10450 1200
 Wire Wire Line
-	3600 4100 3600 4150
-Connection ~ 3600 4100
+	10450 1250 10450 1300
+Connection ~ 10450 1250
 Wire Wire Line
-	3400 4500 3600 4500
+	10250 1650 10450 1650
 Wire Wire Line
-	3600 4500 3600 4450
+	10450 1650 10450 1600
 Wire Wire Line
-	3400 3700 3600 3700
+	10250 850  10450 850 
 Wire Wire Line
-	3600 3700 3600 3750
+	10450 850  10450 900 
 $Comp
 L Device:C C3
 U 1 1 6149B90A
