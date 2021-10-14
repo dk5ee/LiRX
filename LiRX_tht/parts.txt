@@ -1,0 +1,24 @@
+Piher T-16H
+https://www.piher.net/pdf/22-T16v03.pdf
+bei "T-16..H.." auf der zweiten seite
+
+Ledino KB3SPRS
+https://cdn-reichelt.de/documents/datenblatt/C160/KB3SPRS.pdf
+sollte eine standard bauform sein
+
+weiteres siehe 'LiRX_tht.csv' - komplette BOM.
+
+Die Elkos:
+
+10µF
+D 5mm, RM 2mm
+reichelt: FR-A 10U 50 
+47µF
+D 5mm, RM 2mm 
+reichelt: RAD FR 47/25
+100µF
+D 5mm, RM 2mm
+reichelt: RAD FR 100/16
+470µF
+D 8mm, RM 3.5mm
+reichelt: RAD FR 470/16
