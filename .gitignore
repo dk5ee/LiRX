@@ -27,3 +27,18 @@ fp-info-cache
 
 # my panelisation
 panelise
+
+# tex files
+.moc
+Makefile
+.obj
+.ui
+qrc_*.cpp
+texstudio
+texstudio.pro.user
+texstudio.pri
+translation/.tx/
+.qmake.stash
+hg_revision.cpp
+src/git_revision.cpp
+cov-int/
