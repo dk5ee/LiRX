@@ -1,7 +1,14 @@
 \documentclass[]{article}
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+
 \usepackage{graphicx}
 %opening
-\title{LiRX V1}
+\title{LiRX V2}
 \author{}
 \date{}
 
@@ -15,76 +22,100 @@
 		
 	
 	\includegraphics[width=1.0\linewidth]{Platine.png}
-Liste der elektronischen Bauteile in aufsteigender Bauhöhe.
+
 \end{abstract}
 
-\section{Widerstände}
+\section{Bauteile}
+Liste der elektronischen Bauteile in aufsteigender Bauhöhe.
+\subsection{Widerstände}
+Empfohlene Werte für die Widerstände:
 \begin{itemize}
-	\item R1 :	100k$\Omega$
+	\item R1 :	100k$\Omega$ - Forward Widerstand 
+	\item R2 :  680$\Omega$ - Begrenzung Lautstärke \#1
+	\item R3 : 	270$\Omega$ - Begrenzung Lautstärler \#2
 	\item R14 : 100$\Omega$ - Entkopplung LM358 Stromversorgung
-	\item R15 : 10$\Omega$ - Endfilter LM386
-	\item R17 : 470k$\Omega$ Feedback Widerstand
-	\item R18 : 1M$\Omega$ - Für Spannungsteiler virtual GND 
-	\item R19 : 1M$\Omega$ - Für Spannungsteiler virtual GND
+	\item R15 : 10$\Omega$ - optional - Endfilter LM386
+	\item R17 : 470k$\Omega$ - Feedback Widerstand
+	\item R18 : 12k$\Omega$ - Für Spannungsteiler virtual GND 
+	\item R19 : 12k$\Omega$ - Für Spannungsteiler virtual GND
 	\item R20 : 12k$\Omega$ - Strom für Photosensor
 \end{itemize}
-\section{Fassungen und Buchse}
+\subsection{Fassungen und Buchse}
 \begin{itemize}
-	\item 8pol Fassung für LM358
-	\item 8pol Fassung für LM386
+	\item 8pol Fassung für LM358, Dual Operationsverstärker
+	\item 8pol Fassung für LM386, Mono Audioverstärker
 	\item 3,5mm Klinkenbuchse
 \end{itemize}
-\section{Kerko Kondensatoren}
+\subsection{Kerko Kondensatoren}
 \begin{itemize}
 	\item C1 : 100nF - Spannungsstabilisation
 	\item C2 : 100nF - Spannungsstabilisation
-	\item C3 : optional um Oszillation des LM358 zu verringern
+	\item C3 : 18pf - optional - um hochfrequente Verstärkung des LM358 zu verringern
 	\item C9 : 150nF - Gleichspannung auskoppeln
 	\item C10 : 330nF - Gleichspannung auskoppeln
-	\item C12 : 47nF - Endfilter LM386
-	
+	\item C12 : 47nF - Endfilter LM386	
 \end{itemize}
-\section{Elko Kondensatoren}
+\subsection{Elko Kondensatoren}
 Auf Polung achten!
 \begin{itemize}
 	\item C8: 470$\mu$F $\oslash$8mm - Spannungsstabilisation
 	\item C11: 100$\mu$F $\oslash$5mm - Entkopplung Audiosignal Gleichstrom
-	\item C13: 10$\mu$F $\oslash$5mm - Verstärkungsboost LM386
-	\item C14: 47$\mu$F  $\oslash$5mm Spannungsstabilisation
+	\item C13: 10$\mu$F $\oslash$5mm - optional - Verstärkungsboost LM386
+	\item C14: 47$\mu$F  $\oslash$5mm - Spannungsstabilisation
 \end{itemize}
-\section{Photosensor}
+\subsection{Photosensor}
 Wahlweise Photodiode oder Phototransistor.
 
 Auf Polung achten, sonst funktioniert es nicht.
 
-Alternativ kann auch jede Leuchtdiode als Photosensor verwendet werden. Ein Photowiderstand wird zu träge sein.
-\section{Stromversorgung}
+Alternativ kann auch jede Leuchtdiode als Photosensor ausgetestet werden. Ein Photowiderstand wird jedoch zu träge sein.
+\subsection{Schalter}]
+Für den LM386 ist ein Schalter "gain" vorgesehen, um die Verstärkung des LM386 zu vergrößern.
+
+Für die Stromversorgung ist ein Schalter "onff" vorgesehen.
+
+\subsection{Stromversorgung}
 Es gibt einen Anschluss für eine 9V Batterie. Auf Polung achten!
 
-Nach dem Anschluss gibt es zwei Pinlöcher für Nutzung eines Jumper oder zum Anlöten eines Schalters mit Kabel.
+\subsection{Letzte Komponenten}
+Es sind zwei Potentiometerbauformen möglich, nur eines der beiden ist zu verwenden: RV1 oder RV3, ein 10k$\Omega$ Potentiometer.
 
-\section{Letzte Komponenten}
-Für den LM386 ist eine Reihe von drei Pins vorhanden. Wahlweise kann hier ein Jumper oder ein Schalter angelötet werden, um die Verstärkung des LM386 zu vergrößern.
+\section{Notizen zum Schaltplan}
+\includegraphics[width=1.0\linewidth]{Schaltplan.png}
 
-Zuletzt ist RV3 ein 10k$\Omega$ Potentiometer.
-\section{Testpunkte}
-Auf der Unterseite der Platine sind Testpunkte vorbereitet:
+Die Schaltung wird mit 9V versorgt.
 
-\includegraphics[width=1.0\linewidth]{testpoints.png}
+Der LM386 wird direkt von den 9V gespeist, die Stromversorgung des LM358 wird über R14 entkoppelt.
 
-\begin{itemize}
-	\item TP1: Ground Pegel, Minuspol Batterie
-	\item TP2: Positive Spannung 9V, Pluspol Batterie
-	\item TP3: Mittlere Spannung
-	\item TP4: Spannung über Photosensor.
-	\item TP5: Signal Photosensor nach Kondensator C9
-	\item TP6: Signal nach Verstärkung durch Operationsverstärker LM358
-	\item TP7: Signal nach Potentiometer.
-	\item TP8: Signal direkt nach LM386.
-	\item TP9: Signal am Audioausgang.
-\end{itemize}
+Von den beiden Operationsverstärkern im LM358 wird nur einer verwendet, der andere ist stillgelegt.
+
+Über R20 wird eine Spannung an Q3, der Photodiode, angelegt. Je nach Menge des einfallenden Lichts leitet die Photodiode mehr oder weniger, weswegen die Spannung vor C9 sich variiert. 
+
+Die beiden Widerstände R18 und R19 dienen als Spannungsteiler und liefern einen "virtuellen Ground" für den Operationsverstärker.
+
+Der Operationsverstärker ist als "invertierender Verstärker" beschaltet, die Verstärkung entspricht $-R17/R1$, als fast das fünffache.
+
+Der optionale Kondensator C3 bildet zusammen mit R17 einen Tiefpass, wodurch hochfrequente Signale weniger stark verstärkt werden. Bei einer Verwendung von C=18pF und R=470k$\Omega$ ist die Grenzfrequenz $F_{3db}=\frac{1}{2 \pi C R}$ ungefähr 18kHz, also schon im nicht mehr hörbaren bereich.
+
+Sowohl C9, C10 als auch C11 sind Gleichspannungsentkopplungen, die den Gleichstromanteil aus den Signalen blockieren.
+
+Das Poti stellt einen Spannungsteiler dar, um die Signalstärker nach dem Operationsverstärker zu reduzieren.
+
+Mit R2 kann man die Signalstärke stärker begrenzen.
+
+Der zuschaltbare Kondensator C13 beim LM386 erlaubt eine Steigerung der Verstärkung des LM386.
+
+C12 und R15 filtern den Ausgang des LM386, wie nach dem Datenblatt.
+
+R3 ist die letzte Lautstärkenbegrenzung und verhindert, dass zu viel Leistung in einen angeschlossenen Kopfhörer geschickt wird.
+
 \section{Abschlussbemerkung}
-Entstanden auf Impuls von DC3TC ist diese Platine ein Open Source Nachbau des Empfängers des AATIS Projekt AS802 ``Einfacher Licht-Sende-Empfänger (ELiSE)".
-DC3TC ist auch der Namensgeber. Das Projekt residiert derzeit hier: https://github.com/dk5ee/LiRX
+LiRX ist entstanden auf Impuls von DC3TC.
+
+Diese Platine startete als ein Open Source Nachbau des Empfängers des AATIS Projekt AS802 ``Einfacher Licht-Sende-Empfänger (ELiSE)". Vielen Dank an Aatis!
+
+DC3TC ist auch der Namensgeber für LiRX, den Licht-Receiver. Das Projekt residiert derzeit hier: https://github.com/dk5ee/LiRX.
+
+Weiterer Dank geht an DL3KB, DH5RQ, DL6RBT, DO6RDB, DF1MAT.
 
 \end{document}

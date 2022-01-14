@@ -1,30 +1,30 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2021.10.26)  28 OCT 2021 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2021.12.29)  14 JAN 2022 20:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Bauanleitung.tex
 (./Bauanleitung.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-08-27>
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -34,7 +34,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
@@ -48,40 +48,40 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@width=\dimen140
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count190
+File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count191
 \l__pdf_internal_box=\box50
 )
 (./Bauanleitung.aux)
 \openout1 = `Bauanleitung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count191
+\scratchcounter=\count192
 \scratchdimen=\dimen141
 \scratchbox=\box51
-\nofMPsegments=\count192
-\nofMParguments=\count193
+\nofMPsegments=\count193
+\nofMParguments=\count194
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count194
+\MPscratchCnt=\count195
 \MPscratchDim=\dimen142
-\MPnumerator=\count195
-\makeMPintoPDFobject=\count196
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
 \everyMPtoPDFconversion=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -93,59 +93,64 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
-<Platine.png, id=1, 991.705pt x 480.79625pt>
+(Font)              <6> on input line 17.
+<Platine.png, id=1, 1518.67375pt x 696.6025pt>
 File: Platine.png Graphic file (type png)
 <use Platine.png>
-Package pdftex.def Info: Platine.png  used on input line 17.
-(pdftex.def)             Requested size: 294.99994pt x 143.02214pt.
+Package pdftex.def Info: Platine.png  used on input line 24.
+(pdftex.def)             Requested size: 421.47243pt x 193.32542pt.
 
-Overfull \hbox (13.87491pt too wide) in paragraph at lines 17--19
-[][]
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Platine.png>] [2]
-<testpoints.png, id=18, 1498.59875pt x 787.94376pt>
-File: testpoints.png Graphic file (type png)
-<use testpoints.png>
-Package pdftex.def Info: testpoints.png  used on input line 73.
-(pdftex.def)             Requested size: 345.0pt x 181.39157pt.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 73--74
+Overfull \hbox (13.87491pt too wide) in paragraph at lines 24--25
 [][] 
  []
 
-[3 <./testpoints.png>] (./Bauanleitung.aux) ) 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 33.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Platine.png>]
+<Schaltplan.png, id=13, 1735.48375pt x 568.1225pt>
+File: Schaltplan.png Graphic file (type png)
+<use Schaltplan.png>
+Package pdftex.def Info: Schaltplan.png  used on input line 84.
+(pdftex.def)             Requested size: 471.47249pt x 154.34001pt.
+ [2]
+Overfull \hbox (13.11853pt too wide) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/10 Der Op-er-a-tionsverst^^?arker ist als "in-vertieren-der Vers
+t^^?arker" beschal-tet, die Verst^^?arkung entspricht $\OMS/cmsy/m/n/10 ^^@\OML
+/cmm/m/it/10 R\OT1/cmr/m/n/10 17\OML/cmm/m/it/10 =R\OT1/cmr/m/n/10 1$,
+ []
+
+[3 <./Schaltplan.png>] (./Bauanleitung.aux) ) 
 Here is how much of TeX's memory you used:
- 1235 strings out of 480441
- 18755 string characters out of 5900754
- 311789 words of memory out of 5000000
- 18912 multiletter control sequences out of 15000+600000
- 408012 words of font info for 42 fonts, out of 8000000 for 9000
- 81 hyphenation exceptions out of 8191
- 57i,6n,66p,207b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tim/.texlive2021/texmf-var
-/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Bauanleitung.pdf (3 pages, 127604 bytes).
+ 1301 strings out of 478353
+ 21080 string characters out of 5850634
+ 322671 words of memory out of 5000000
+ 19461 multiletter control sequences out of 15000+600000
+ 408319 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,6n,62p,333b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/
+cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1000.pfb>
+Output written on Bauanleitung.pdf (3 pages, 198049 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
